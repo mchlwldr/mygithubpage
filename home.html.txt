@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+
+
+<meta charset="utf-8">
+<title>My First Page</title>
+
+</head>
+
+<body>
+    	
+<h1>This is heading 1</h1>
+<br> <!-- This is a line break, does not need a close -->
+<h2>This is heading 2</h2> <!-- Goes to 6 -->
+<br/> <!-- You can close it though -->
+
+
+<!-- Always quote attribute values -->
+<p title="MaFuckin Hoverover Tooltip">This is a paragraph, nucka!</p>
+<hr> <!-- Head line to introduce a line -->
+<!-- Use both double and single quotes when you need to -->
+<p title='Mike "Wildest" Wilder'>The mafuckin swag y'all<p/>
+<!-- It works both ways -->
+
+<h6>About headings</h6>
+<p>Headings are used by search engines and users to see the structure of the site. 1-6 rank the importance of headers. </p>
+
+</body>
+
+</html>
