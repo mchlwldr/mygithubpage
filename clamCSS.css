@@ -1,30 +1,44 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-body {
-	background-color: lightgray;
-	border-radius: 25px;
-	}
-
-h1 {
-	border: 5px solid black;
-	text-align: center;
-	margin-left: 5px;
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	}
-
-h2 {
-	border:thick solid #DF1E21;	
-	text-align:center;
-	}
-
+/* Classes */
 .centeredImage {
     text-align:center;
     margin-top:0px;
     margin-bottom:0px;
     padding:0px;
     }
-	
+
+/* id Selectors for building a web page */
+#header{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:5px;
+	}
+
+#sidebar{
+	line-height:30px;
+	background-color:darkgray;
+	height:300px;
+	width:100px;
+	float:left;
+	padding:5px;
+}
+
+#section {
+	width:350px;
+	float:left;
+	padding:10px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+
+
