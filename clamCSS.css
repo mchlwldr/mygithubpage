@@ -2,9 +2,13 @@
 /* CSS Document */
 
 
-hr{
+#hr{
 	width:10em;
 	color:#253237;
+	}
+
+#body{
+	background-color:#e0fbfc;
 	}
 
 #header{
@@ -21,12 +25,6 @@ hr{
 	padding:0.6em;
 	margin:0.5em;
 	text-align:left;
-	}
-
-#banner{
-	text-align:center;
-	background-color: darkgray;
-	margin:0.4em;
 	}
 
 #section {
@@ -49,12 +47,12 @@ a:link, a:visited {
     display: block;
     font-weight: bold;
     color:black;
-    background-color: #c2dfe3;
+    background-color: #9db4c0;
     text-align: center;
     padding: 0.3em;
     text-decoration: none;
 }
 
 a:hover, a:active {
-    background-color: #89C2C9;
+    background-color: #7E9CAC;
 }
