@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-color:lightgray;
+	background-color:#e0fbfc;
 	}
 
 hr{
@@ -10,8 +10,8 @@ hr{
 	}
 
 #header{
-	background-color:black;
-	color:white;
+	background-color:#253237;
+	color:#e0fbfc;
 	text-align:center;
 	padding:0.5em;
 	margin:0.3em;	
@@ -19,7 +19,7 @@ hr{
 
 #sidebar{
 	line-height: 30px;
-	background-color: darkgray;
+	background-color: #5c6b73;
 	padding:0.6em;
 	margin:0.5em;
 	text-align:left;
@@ -39,10 +39,25 @@ hr{
 }
 
 #footer {
-    background-color:black;
-    color:white;
+    background-color:#253237;
+    color:#e0fbfc;
     clear:both;
     text-align:center;
     padding:0.5em;
 	margin:0.3em; 
+}
+
+a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color:black;
+    background-color: #c2dfe3;
+    /*width: 7em;*/
+    text-align: center;
+    padding: 0.3em;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #89C2C9;
 }
