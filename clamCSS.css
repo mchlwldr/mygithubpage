@@ -1,28 +1,38 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	background-color:lightgray;
+	}
+
+
 #header{
 	background-color:black;
 	color:white;
 	text-align:center;
-	padding:5px;
+	padding:0.5em;
+	margin:0.5em;	
 	}
 
 #sidebar{
-	line-height:30px;
-	background-color:darkgray;
+	line-height: 30px;
+	background-color: darkgray;
+	float: left;
+	padding: 0.6em;
+	margin:0.5em;
+	}
+
+#banner{
+	text-align:center;
+	background-color: darkgray;
+	margin:0.4em;
 	
-	height:300px;
-	width:100px;
-	
-	float:left;
-	padding:5px;
-}
+	}
 
 #section {
 	width:350px; 
 	float:left;
-	padding:10px;
+	padding:1em;
 }
 
 #footer {
@@ -30,8 +40,6 @@
     color:white;
     clear:both;
     text-align:center;
-    padding:5px; 
+    padding:0.5em;
+	margin:1em; 
 }
-
-
-
